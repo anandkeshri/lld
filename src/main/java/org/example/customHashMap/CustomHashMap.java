@@ -12,7 +12,7 @@ public class CustomHashMap {
     private int size;
     private final int minSize = 2;
 //    private int bucketCount;
-
+// adding a test comment to test git
     public CustomHashMap(double minLoadFactor, double maxLoadFactor){
         this.minLoadFactor = round(minLoadFactor);
         this.maxLoadFactor = round(maxLoadFactor);
